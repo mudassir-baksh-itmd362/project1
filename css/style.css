@@ -1,11 +1,11 @@
 body {
-    background-image: url("GWbackground.jpg");
+    background-image: url("money.jpg");
     background-size: cover;
     text-align: center;
 }
 
 #content {
-  background-color: rgb(121, 239, 145);
+  background-color: rgb(186, 222, 193);
     width: 90%;
     margin: 130px auto;
     border-radius: 10px;
@@ -17,26 +17,64 @@ body {
 }
 
 form h1 {
-  text-shadow: 50px;
+    color: rgb(117, 171, 107);
     font-size: 45px;
     margin-bottom: 15px;
     font-family: "Kanit", sans-serif;
     font-weight: 750;
     font-style: italic;
 }
+
 form p {
     font-size: 23px;
     margin-bottom: 15px;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(132, 189, 110);
 }
 
 input[type="email"]{
     background-color: rgba(227, 209, 209, 0.253);
-    border-radius: 6px;  
+    border-radius: 6px;
+    border-style: double;  
+    border-color: rgb(255, 255, 255);
+}
+
+label[for="name"] {
+  color: rgb(132, 189, 110);
+  margin-left: 65px;
+}
+
+input[type="name"]{
+  background-color: rgba(227, 209, 209, 0.253);
+  border-radius: 6px;
+  border-style: double;  
+  border-color: rgb(255, 255, 255);
+  margin: 7px;
+}
+
+input[type="phone"]{
+  background-color: rgba(227, 209, 209, 0.253);
+  border-radius: 6px;
+  border-style: double;  
+  border-color: rgb(255, 255, 255);
+  margin: 7px;
+}
+
+label[for="phone"] {
+  color: rgb(132, 189, 110);
+}
+
+label[for="email"] {
+  color: rgb(132, 189, 110);
+  margin-left: 65px;
 }
 
 label[for="age-verification"] {
     display: inline-block;
     vertical-align: middle;
+    color: rgb(132, 189, 110);
+    margin: 7px;
 }
 
 input[type="submit"] {
@@ -45,7 +83,11 @@ input[type="submit"] {
     margin: auto;
     width: auto;
     font-family: 'Courier New', Courier, monospace;
-    border: none
+    border-radius: 10px;
+    border-color: rgb(255, 255, 255);
+    border-style: groove;
+    background-color: lightgreen; /* Light green background */
+    color: white;
 }
 
 @media (min-width: 752px) {
