@@ -86,8 +86,18 @@ input[type="submit"] {
     border-radius: 10px;
     border-color: rgb(255, 255, 255);
     border-style: groove;
-    background-color: lightgreen; /* Light green background */
-    color: white;
+}
+
+input[type="submit"] {
+  background: linear-gradient(rgb(76, 218, 78), rgb(224, 227, 224), rgb(78, 186, 78));
+  background-size: 200% 200%;
+  animation: gradient-animation 5s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {background-position: 0% 50%;}
+  50% {background-position: 100% 50%;}
+  100% {background-position: 0% 50%;}
 }
 
 @media (min-width: 752px) {
