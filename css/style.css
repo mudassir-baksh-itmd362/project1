@@ -68,12 +68,12 @@ label[for="age-verification"] {
 input[type="submit"] {
     display: block;
     margin: auto;
-    width: auto;
+    width: 90px;
     font-family: 'Courier New', Courier, monospace;
     border-radius: 10px;
     border-color: rgb(255, 255, 255);
     border-style: groove;
-    width: 10%;
+    padding: 5px;
 }
 
 input[type="submit"] {
@@ -92,5 +92,6 @@ input[type="submit"] {
   form {
     width: fit-content;
     min-width: 90%;
+    
   }
 }
