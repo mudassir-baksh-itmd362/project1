@@ -33,32 +33,19 @@ form p {
     color: rgb(132, 189, 110);
 }
 
-input[type="email"]{
-    background-color: rgba(227, 209, 209, 0.253);
-    border-radius: 6px;
-    border-style: double;  
-    border-color: rgb(255, 255, 255);
-}
-
 label[for="name"] {
   color: rgb(132, 189, 110);
   margin-left: 65px;
 }
 
-input[type="text"]{
-  background-color: rgba(227, 209, 209, 0.253);
-  border-radius: 6px;
-  border-style: double;  
-  border-color: rgb(255, 255, 255);
-  margin: 7px;
-}
-
-input[type="tel"]{
-  background-color: rgba(227, 209, 209, 0.253);
-  border-radius: 6px;
-  border-style: double;  
-  border-color: rgb(255, 255, 255);
-  margin: 7px;
+input[type="email"],
+input[type="text"],
+input[type="tel"] {
+    background-color: rgba(227, 209, 209, 0.253);
+    border-radius: 6px;
+    border-style: double;
+    border-color: rgb(255, 255, 255);
+    margin: 7px;
 }
 
 label[for="phone"] {
