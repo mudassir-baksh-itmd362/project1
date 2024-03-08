@@ -23,6 +23,7 @@ form h1 {
     font-family: "Kanit", sans-serif;
     font-weight: 750;
     font-style: italic;
+    margin-left: 65px;
 }
 
 form p {
@@ -79,6 +80,7 @@ input[type="submit"] {
   background: linear-gradient(rgb(76, 218, 78), rgb(224, 227, 224), rgb(78, 186, 78));
   background-size: 200% 200%;
   animation: gradient-animation 5s ease infinite;
+  width: 20%;
 }
 
 @keyframes gradient-animation {
@@ -92,17 +94,4 @@ input[type="submit"] {
     width: fit-content;
     min-width: 90%;
   }
-  input[type="submit"] {
-    width: 50%;
-  }
 }
-
-@media (max-width: 752px) {
-    form {
-      width: fit-content;
-      min-width: 90%;
-    }
-    input[type="submit"] {
-      width: 50%;
-    }
-  }
