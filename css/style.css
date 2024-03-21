@@ -10,7 +10,7 @@ body {
     margin: 130px auto;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: "Kanit", "Madimi One", monospace;
     border-style: groove;
     padding: 25px;
     border: none
@@ -20,7 +20,7 @@ form h1 {
     color: rgb(117, 171, 107);
     font-size: 45px;
     margin-bottom: 15px;
-    font-family: "Kanit", sans-serif;
+    font-family: "Kanit", "Madimi One", monospace;
     font-weight: 750;
     font-style: italic;
     margin-left: 65px;
@@ -28,7 +28,7 @@ form h1 {
 
 form p {
     font-size: 23px;
-    font-family: "Kanit", sans-serif;
+    font-family: "Kanit", "Madimi One", monospace;
     margin-bottom: 15px;
     font-weight: 400;
     font-style: normal;
@@ -48,7 +48,7 @@ input[type="tel"] {
     border-style: double;
     border-color: rgb(255, 255, 255);
     margin: 7px;
-    font-family: "Kanit", sans-serif;
+    font-family: "Kanit", "Madimi One", monospace;
 }
 
 label[for="phone"] {
@@ -71,7 +71,8 @@ input[type="submit"] {
     display: block;
     margin: auto;
     width: 90px;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: "Kanit", "Madimi One", monospace;
+    color: rgb(132, 189, 110);
     border-radius: 10px;
     border-color: rgb(255, 255, 255);
     border-style: groove;
