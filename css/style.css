@@ -95,6 +95,13 @@ input[type="submit"] {
   #content {
       width: 70%;
   }
+  input[type="email"],
+    input[type="text"],
+    input[type="tel"] {
+        width: 90%;
+        max-width: 90%;
+        margin: 7px auto; 
+    }
 }
 
 @media (min-width: 1024px) {
