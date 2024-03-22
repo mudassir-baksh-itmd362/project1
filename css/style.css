@@ -37,7 +37,6 @@ form p {
 
 label[for="name"] {
   color: rgb(132, 189, 110);
-  margin-left: 65px;
 }
 
 input[type="email"],
@@ -57,7 +56,6 @@ label[for="phone"] {
 
 label[for="email"] {
   color: rgb(132, 189, 110);
-  margin-left: 65px;
 }
 
 label[for="age-verification"] {
@@ -83,6 +81,10 @@ input[type="submit"] {
   background: linear-gradient(rgb(76, 218, 78), rgb(224, 227, 224), rgb(78, 186, 78));
   background-size: 200% 200%;
   animation: gradient-animation 5s ease infinite;
+}
+
+input[type="text"] {
+  margin-left: 30px;
 }
 
 @keyframes gradient-animation {
