@@ -107,6 +107,9 @@ input[type="text"] {
     input[type="submit"] {
       width: 100px;
     }
+    input[type="submit"] {
+      padding: 10px;
+    }
 }
 
 @media (min-width: 1024px) {
