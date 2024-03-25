@@ -104,6 +104,9 @@ input[type="text"] {
       max-width: 90%;
       margin: 7px auto; 
     }
+    input[type="submit"] {
+      width: 100px;
+    }
 }
 
 @media (min-width: 1024px) {
@@ -116,6 +119,9 @@ input[type="text"] {
   label[for="phone"],
   label[for="email"],
   label[for="name"] {
-    font-size: larger;
+      font-size: larger;
+  }
+  input[type="submit"] {
+    width: 120px;
   }
 }
